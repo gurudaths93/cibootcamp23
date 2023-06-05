@@ -1,0 +1,60 @@
+.timer {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+  }
+  .timer span {
+    font-size: 2em;
+    margin: 0 3px 0 15px;
+  }
+
+  .ftco-animated {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.slider-text {
+  margin-left: 30px;
+}
+
+.slider-text h1 {
+  font-size: 28px;
+  color: #43464a;
+  line-height: 1.2;
+  font-weight: 200;
+}
+
+.slider-text h1 span {
+  font-size: 54px;
+  font-weight: 600;
+  color: #18837e; /*#ff05c1, #1162fb*/
+  text-transform: uppercase;
+}
+
+#timer .time {
+  width: 15%;
+  font-size: 40px;
+  font-weight: 500;
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  color: #9e2896;
+}
+
+#timer .time span {
+  display: block;
+  font-size: 12px;
+  color: black;
+}
+
+#timer .time:first-child {
+  border-left: transparent;
+}
+
+.date-class {
+  margin-left: 20px;
+  margin-top: 15px;
+  padding-top: 20px;
+  color: #43464a;
+}

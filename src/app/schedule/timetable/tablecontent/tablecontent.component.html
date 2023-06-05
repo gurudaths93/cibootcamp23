@@ -1,0 +1,12 @@
+<!-- <table>
+    <tr>
+        <th *ngFor="let header in tableData ">{{ header }}</th>
+    </tr>
+    <tr *ngFor="let row of tableData">
+        <td *ngFor="let cell of row | keyvalue">{{ cell.value }}</td>
+    </tr>
+</table> -->
+<div *ngIf="!showData" class="spinner-grow text-primary" style="background-color: #18837e;" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+<div *ngIf="showData" [innerHTML]="bootstrapCardHTML"></div>

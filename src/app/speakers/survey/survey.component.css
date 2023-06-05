@@ -1,0 +1,37 @@
+.question-card {
+    display: block !important;
+    border: none;
+    display: flex;
+    margin-top: 40px;
+    /* border-width: 2px; */
+}
+
+.question-title {
+    margin: 10px;
+}
+
+.survey-options {
+    margin: 10px;
+}
+
+.radio-button{
+    margin: 15px;
+}
+
+.form-check-input:checked {
+	background-color: #18837e;
+	border-color: #18837e;
+}
+
+.submit-button {
+    align-content: center;
+    padding: 14px;
+    font-weight: 600;
+    background-color: #9e2896;
+    border-color: #9e2896;
+    margin-bottom: 30px;
+}
+
+.display-survey{
+    display: block !important;
+}

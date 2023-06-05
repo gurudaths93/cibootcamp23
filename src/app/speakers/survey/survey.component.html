@@ -1,0 +1,77 @@
+<div *ngIf="!show" class="spinner-grow text-primary" style="background-color: #18837e;" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+<div *ngIf="show">
+    <div *ngFor="let item of questions | keyvalue">
+        Key: <b>{{item.key}}</b> and Value: <b>{{item.value}}</b>
+    </div>
+    <div class="container display-survey">
+        <div class="question-card card shadow p-3 mb-5 bg-body rounded">
+            <h4 class="question-title">How was the BootCamp?</h4>
+            <div class="survey-options">
+                <div class="form-check radio-button">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Excellent
+                    </label>
+                </div>
+                <div class="form-check radio-button">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault2"
+                        checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Good
+                    </label>
+                </div>
+                <div class="form-check radio-button">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault2"
+                        checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Average
+                    </label>
+                </div>
+                <div class="form-check radio-button">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault2"
+                        checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Could be better
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question-card card shadow p-3 mb-5 bg-body rounded">
+            <h4 class="question-title">How was the overall arrangements made?</h4>
+            <div class="survey-options">
+                <div class="form-check radio-button">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault21">
+                    <label class="form-check-label" for="flexRadioDefault21">
+                        Excellent
+                    </label>
+                </div>
+                <div class="form-check radio-button">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault22"
+                        checked>
+                    <label class="form-check-label" for="flexRadioDefault22">
+                        Good
+                    </label>
+                </div>
+                <div class="form-check radio-button">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault23"
+                        checked>
+                    <label class="form-check-label" for="flexRadioDefault23">
+                        Average
+                    </label>
+                </div>
+                <div class="form-check radio-button">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault24"
+                        checked>
+                    <label class="form-check-label" for="flexRadioDefault24">
+                        Could be better
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <button type="button" class="btn btn-secondary submit-button">Submit</button>
+    </div>
+</div>

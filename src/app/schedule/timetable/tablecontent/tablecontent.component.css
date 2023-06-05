@@ -1,0 +1,36 @@
+.maincard {
+    height: 80% !important;
+    padding-right: 30px;
+    width: 700px;
+}
+.agenda-card {
+    margin: 15px !important;
+    padding: 20px !important;
+}
+.details {
+    font-size: 25px !important;
+    color: #9e2896;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.details-wrapper {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-top: 30px;
+}
+
+.time {
+    /* text-align: left; */
+    font-size: larger;
+    color: #2e908b;
+}
+
+.spoc {
+    /* text-align: right; */
+    font-size: larger;
+    color: #4e5256;
+    padding-top: 10px;
+}

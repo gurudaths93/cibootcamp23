@@ -1,0 +1,20 @@
+<div class="slider-text">
+  <div class="col-lg-6 col-md-6 ftco-animate fadeInUp ftco-animated" data-scrollax=" properties: { translateY: '70%' }"
+    style="transform: translateZ(0px) translateY(0%);">
+    <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+      style="opacity: 1; transform: translateZ(0px) translateY(0%);"> CI Dashboard <br><span>BootCamp 2023</span></h1>
+    <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+      style="opacity: 1; transform: translateZ(0px) translateY(0%);"><svg style="margin-top: -5px; margin-left: 3px"
+        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar"
+        viewBox="0 0 16 16">
+        <path
+          d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+      </svg> <span class="date-class" style="margin-left: -1px;"> 12-16 June 2023 - Bengaluru India </span></p>
+    <div *ngIf="!(daysToDday < 0)" id="timer" class="d-flex">
+      <div class="time" id="days">{{daysToDday}}<span>Days</span></div>
+      <div class="time pl-3" id="hours">{{hoursToDday}}<span>Hours</span></div>
+      <div class="time pl-3" id="minutes">{{minutesToDday}}<span>Minutes</span></div>
+      <div class="time pl-3" id="seconds">{{secondsToDday}}<span>Seconds</span></div>
+    </div>
+  </div>
+</div>
